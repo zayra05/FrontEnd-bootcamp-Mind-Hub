@@ -1,6 +1,71 @@
 *{
-    background: #fff;
-    color: #444;
-    font-family: 'Source Code Pro', monospace;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "source code pro",monospace ;
+  }
+
+  header{
+   height: 30vh;
+   background-image: url(./img/hockey2.jpg);
+   background-size:cover;
+   margin-right: -147px;
+   background-position-y:230px ;
+   background-position-x: -40px;
+   z-index: 1; 
+  }
+
+  header h1 {
+margin-left: 40px;
+font-size: 50px;
+font-weight: 700;
+text-shadow: 15px;
+  }
+
+  header nav {
+  position: absolute;
+  width: 80px;
+  left: 40px;
+  top: 250px;
+  font-size: 20px;
+
   }
   
+.logo {
+width: 200px;
+margin-right: 233px;
+right: 0;
+bottom: 50px;
+position: fixed;
+top: 8rem;
+  }
+
+  /* section */
+
+  section h2{
+   
+  margin-right: 150px;
+  margin-left: 40px;
+  
+    color: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 30px;
+   font-weight: 300;
+   background-color: black;
+   
+  
+  }
+
+  section article {
+  margin-top: 20px;
+  margin-right: 150px;
+  margin-left: 250px;
+  
+   
+   text-align:justify;
+   font-size: 15px;
+   font-weight: 300;
+  
+  }
+
+
