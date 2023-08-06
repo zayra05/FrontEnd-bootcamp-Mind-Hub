@@ -9,45 +9,56 @@
    height: 30vh;
    background-image: url(./img/hockey2.jpg);
    background-size:cover;
-   margin-right: -147px;
    background-position-y:230px ;
-   background-position-x: -40px;
    z-index: 1; 
+ 
   }
 
   header h1 {
-margin-left: 40px;
-font-size: 50px;
-font-weight: 700;
-text-shadow: 15px;
+    font-size: 45px;
+    margin-left: 40px;
   }
 
   header nav {
   position: absolute;
-  width: 80px;
-  left: 40px;
-  top: 250px;
-  font-size: 20px;
+  width: 93px;
+  height: 30px;
+  margin: 50px;
+ margin-top: 225px;
+ font-size: 20px;
+ z-index: 1;
 
   }
+
+  nav a {
+    color: black;
+    text-decoration-line:underline;
+    
+}
+
+header nav a:hover {
+    
+    color: #ffe817;
+    font-size: large;
+    font-weight: bold;
+    
+  } 
   
 .logo {
 width: 200px;
-margin-right: 233px;
+height: 200px;
+margin-right: 123px;
 right: 0;
 bottom: 50px;
-position: fixed;
+position: absolute;
 top: 8rem;
+z-index: 1;
   }
 
   /* section */
 
   section h2{
-   
-  margin-right: 150px;
-  margin-left: 40px;
-  
-    color: rgb(255, 255, 255);
+  color:white;
    text-align: center;
    font-size: 30px;
    font-weight: 300;
@@ -55,17 +66,114 @@ top: 8rem;
    
   
   }
+  
 
   section article {
   margin-top: 20px;
   margin-right: 150px;
   margin-left: 250px;
+  text-align:justify;
+  font-size: 15px;
+  font-weight: 300;
   
-   
-   text-align:justify;
-   font-size: 15px;
-   font-weight: 300;
   
   }
+  section h3 {
+    font-style: italic;
+    margin: 15px;
+    
 
+  }
+
+  section h4 {
+    margin-left: 10px;
+    color: rgb(62, 62, 62);
+
+  }
+
+  /* About Us */
+
+  header .logo-about {
+    width: 200px;
+    height: 200px;
+    margin-right: 123px;
+    right: 0px;
+    bottom: 50px;
+    position: absolute;
+    top: 8rem;
+    z-index: 1;
+  
+      }
+
+.body-about { 
+  background-color: black;
+}
+
+  main .contenido { 
+    height: 80vh; 
+  }
+
+.fondo{
+  background-image: url(./img/hockey1.jpg);
+  background-size:auto;
+  background-position-y: -100px;
+  background-position-x: 233px; 
+  position: absolute;
+  margin-top: 35px;
+  height: 80vh;
+}
+
+section article {  
+  
+  background-color: rgba(205, 202, 202, 0.763);
+  margin-top: 38px;
+  margin-right: 130px;
+  margin-left: 200px;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
+
+  
+}
+section p {
+text-align: left;
+margin-right: 150px;
+}
+
+/*contact*/
+.body-contacto {
+  background-color: black;
+}
+.contacto {
+  margin-top: 35px;
+  position: absolute;
+  background-color: white;
+  height:80vh;
+ 
+  
+}
+
+main .text-contacto{
+  background-color: rgba(205, 202, 202, 0.763);
+  margin-top: 50px;
+  margin-right: 481px;
+  margin-left: 329px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  
+  }
+  main .img-contact{
+    position: absolute;
+   height: 320px;
+   
+   left: 330px;
+   margin-top: 98px
+   ;
+  
+
+
+  
+  
+  }
 
