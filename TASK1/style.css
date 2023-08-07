@@ -38,9 +38,9 @@
 
 header nav a:hover {
     
-    color: #ffe817;
-    font-size: large;
+    color: #ffe600;
     font-weight: bold;
+    text-decoration-style:double;
     
   } 
   
@@ -86,7 +86,7 @@ z-index: 1;
   }
 
   section h4 {
-    margin-left: 10px;
+    margin-left: 25px;
     color: rgb(62, 62, 62);
 
   }
@@ -119,7 +119,6 @@ z-index: 1;
   background-position-y: -100px;
   background-position-x: 233px; 
   position: absolute;
-  margin-top: 35px;
   height: 80vh;
 }
 
@@ -141,23 +140,26 @@ margin-right: 150px;
 }
 
 /*contact*/
-.body-contacto {
-  background-color: black;
-}
+
 .contacto {
-  margin-top: 35px;
+  
   position: absolute;
-  background-color: white;
-  height:80vh;
+  background-color: rgb(234, 234, 234);
+  height:90vh;
  
   
+}
+main span { 
+  font-size: 20px;
+  color: blue;
+text-decoration-line: underline;
 }
 
 main .text-contacto{
   background-color: rgba(205, 202, 202, 0.763);
-  margin-top: 50px;
-  margin-right: 481px;
-  margin-left: 329px;
+  margin-top: 40px;
+  margin-right: 338px;
+  margin-left: 288px;
   text-align: center;
   font-size: 18px;
   font-weight: 300;
@@ -165,10 +167,9 @@ main .text-contacto{
   }
   main .img-contact{
     position: absolute;
-   height: 320px;
-   
-   left: 330px;
-   margin-top: 98px
+    height: 450px;
+    left: 288px;
+    margin-top: 95px;
    ;
   
 
