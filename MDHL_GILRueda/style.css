@@ -11,38 +11,33 @@
    background-size:cover;
    background-position-y:230px ;
    z-index: 1; 
- 
   }
 
-  header h1 {
-    font-size: 45px;
-    margin-left: 40px;
+header h1 {
+font-size: 45px;
+margin-left: 40px;
   }
 
-  header nav {
-  position: absolute;
-  width: 93px;
-  height: 30px;
-  margin: 50px;
+header nav {
+ position: absolute;
+ width: 93px;
+ height: 30px;
+ margin: 50px;
  margin-top: 225px;
  font-size: 20px;
  z-index: 1;
+}
 
-  }
-
-  nav a {
-    color: black;
-    text-decoration-line:underline;
-    
+nav a {
+color: black;
+text-decoration-line:underline;
 }
 
 header nav a:hover {
-    
-    color: #ffe600;
-    font-weight: bold;
-    text-decoration-style:double;
-    
-  } 
+color: #ffe600;
+font-weight: bold;
+text-decoration-style:double;
+} 
   
 .logo {
 width: 200px;
@@ -57,38 +52,41 @@ z-index: 1;
 
   /* section */
 
-  section h2{
-  color:white;
-   text-align: center;
-   font-size: 30px;
-   font-weight: 300;
-   background-color: black;
-   
-  
-  }
-  
+/*...imagen background con opacidad
+main img { 
+  height: 100vh;
+  opacity: .3;
+  position: absolute;
+  margin-top: -291px;
+  margin-left: 180px;
+  margin-right: 100px;
+}*/
 
-  section article {
+section h2{
+color:white;
+text-align: center;
+font-size: 30px;
+font-weight: 300;
+background-color: black;
+}
+  
+section article {
   margin-top: 20px;
   margin-right: 150px;
   margin-left: 250px;
   text-align:justify;
   font-size: 15px;
   font-weight: 300;
-  
-  
   }
-  section h3 {
-    font-style: italic;
-    margin: 15px;
-    
 
+  section h3 {
+  font-style: italic;
+  margin: 15px;
   }
 
   section h4 {
-    margin-left: 25px;
-    color: rgb(62, 62, 62);
-
+   margin-left: 25px;
+   color: rgb(62, 62, 62);
   }
 
   /* About Us */
@@ -106,11 +104,11 @@ z-index: 1;
       }
 
 .body-about { 
-  background-color: black;
+background-color: black;
 }
 
   main .contenido { 
-    height: 80vh; 
+  height: 80vh; 
   }
 
 .fondo{
@@ -123,16 +121,13 @@ z-index: 1;
 }
 
 section article {  
-  
   background-color: rgba(205, 202, 202, 0.763);
   margin-top: 38px;
   margin-right: 130px;
   margin-left: 200px;
   text-align: justify;
   font-size: 18px;
-  font-weight: 300;
-
-  
+  font-weight: 300; 
 }
 section p {
 text-align: left;
@@ -142,13 +137,11 @@ margin-right: 150px;
 /*contact*/
 
 .contacto {
-  
-  position: absolute;
+   position: absolute;
   background-color: rgb(234, 234, 234);
   height:90vh;
- 
-  
 }
+
 main span { 
   font-size: 20px;
   color: blue;
@@ -170,11 +163,6 @@ main .text-contacto{
     height: 450px;
     left: 288px;
     margin-top: 95px;
-   ;
-  
-
-
-  
-  
+    opacity: 1;
   }
 
