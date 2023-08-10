@@ -134,7 +134,7 @@ flex-direction: row;
 }
 
 section article {  
- width: ;
+ 
   align-content:center;
   justify-content:center;
   text-align: justify;
@@ -210,7 +210,11 @@ align-content:stretch;
 }
 .info-adic{
   justify-content: center;
-
-
-
   }
+
+  /*rules*/
+ {
+  
+ }
+
+
