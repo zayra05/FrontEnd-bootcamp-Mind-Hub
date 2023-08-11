@@ -31,7 +31,7 @@ margin-left: 30px;
 justify-content:space-between;
   }
 
-  img {
+  header img {
     max-width: 160px;
     position: absolute;
     top: 70%;
@@ -61,7 +61,7 @@ main img {
   margin-right: 100px;
 }*/
 main > div {
- /* height: 50vh;*/
+  height: 80vh;
   display: flex;
   flex-direction: row;
   border: 1px solid red;
@@ -75,6 +75,7 @@ main > div {
   z-index: 1;
   margin-top: 70px;
   margin-left: 40px;
+  height: 30vh;
 
  
  }
@@ -115,13 +116,19 @@ main > div {
   }
 
   /* About Us }*/
-
-#about { 
-display: flex;
-position: relative;
-flex-wrap: wrap;
-flex-direction: row;
- align-content: center
+#about .contenido{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+ flex-direction: row;
+ align-content:flex-start;
+}
+#about .contenido{ 
+width: 130vh;
+position: absolute;
+left: 210px;
+max-height: 100vh;
+top: 42vh;
 }
 
 
@@ -135,21 +142,23 @@ flex-direction: row;
 
 section article {  
  
-  align-content:center;
+ /* align-content:center;
   justify-content:center;
-  text-align: justify;
+  text-align: justify;*/
 
-  background-color: rgba(205, 202, 202, 0.763);
-  /*margin-top: 38px;
+   background-color: rgba(205, 202, 202, 0.763);
+   font-size: 18px;
+   text-align: justify;
+   margin-left: 25px
+ /*margin-top: 38px;
   margin-right: 130px;
-  margin-left: 200px;*/
-  text-align: justify;
+  ;
+  
   font-size: 18px;
-  font-weight: 300; 
+  font-weight: 300; */
 }
 section p {
-text-align: left;
-margin-right: 150px;
+text-align:end;
 }
 
 /*contact*/
@@ -161,7 +170,7 @@ margin-right: 150px;
   flex-direction: row;
 }
 
-main span { 
+section span { 
   font-size: 20px;
   color: blue;
 text-decoration-line: underline;
@@ -170,19 +179,20 @@ text-decoration-line: underline;
 main .text-contacto{
   width: 100vh;
   background-color: rgba(205, 202, 202, 0.763);
-  /* margin-top: 40px; */
-  /* margin-right: 338px; */
-  /* margin-left: 288px; */
+  margin-top: 40px; 
+  margin-right: 338px; 
+   margin-left: ;
   text-align: center;
-  /* font-size: 18px; */
+  font-size: 18px; 
   font-weight: 300;
-  height: 30vh;
+  height:20vh;
   
   }
   main .img-contact{
     justify-content: center;
-    width: 200px;
-    margin-top: 95px;
+    max-height: 55vh;
+    margin-top: 200px;
+    margin-left: 300px;
   }
   /*Game info*/
   #game-info{
@@ -210,11 +220,53 @@ align-content:stretch;
 }
 .info-adic{
   justify-content: center;
+  height: 30vh;
   }
 
-  /*rules*/
- {
-  
- }
+  /*rules
 
+  section .sportsmanship{
+    width: 130vh;
+  position: absolute;
+  left: 210px;
+  max-height: 100vh;
+  top: 42vh;
+  }*/
+
+main #rules{
+  background-color: hsl(122, 100%, 50%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+ section .list-field{
+  width: 130vh;
+  position: absolute;
+  margin-top: 180px;
+  left: 210px;
+  max-height: 100vh;
+  top: 42vh;
+ }
+ fieldset{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+ }
+ fieldset{
+  margin-inline-start: 258px;
+  margin-inline-end: 49px;
+  padding-block-start: 4px;
+  padding-inline-start: 2.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 4px;
+  min-inline-size: revert;
+  border-width: 13px;
+  border-style: inset;
+  border-color: rgb(253 223 92);
+}
 

@@ -17,7 +17,7 @@
             <img src="./img/logo-mighty-ducks-01.png" alt="logo.MDHL">
         </div> 
         <div class="items encabezado"> 
-            <h2>Registro</h2>
+            <h2>Registration Form </h2>
         </div>
     
     </header>
@@ -27,14 +27,57 @@
                 <ul>
                     <li> <a href="./index.html">Home</a> </li>
                     <li> <a href="./game_info.html">Game Info</a> </li>
+                    <li> <a href="./registro.html">Registration</a></li>
                     <li> <a href="./rules.html">Rules</a></li>
                     <li> <a href="./about.html">About MDHL</a></li>
                     <li> <a href="./contacto.html">Contact</a></li> 
-                    <li> <a href="./registro.html">Registro</a></li>   
+                       
                 </ul>
             </nav>
         </div>
-    </main>
-    
+        <div class="name">
+            <form action="./showdata.html" method="get"> 
+             <fieldset class="name">
+                <legend> Players</legend>
+                <label for="nombre">First Name</label>
+                <input type="text" name="name" id="nombre">
+
+                <label>
+                    <span> Last Name</span>
+                    <input type="text" name:"lastname" id="apellido">
+                
+                </label>
+
+             </fieldset>
+<fieldset class="adress">
+    <label for="adress">Street Adress</label>
+    <input type="text" name="adress" id="adress">
+</fieldset>
+<fieldset class="city">
+    <span>City</span>
+    <input type="text" name="city" id="city">
+    <span>Zip Code</span>
+    <input type="text" name="Zip-code" id="Zip">
+</fieldset>
+<fieldset>
+     <label>
+            <span>Birth Date</span>
+            <input type="date" name="date" id="date">
+            <span>Gender:</span>
+            
+            <span>Female</span>
+            <input type="radio" name="Genero" value="Female">
+            <span>Male</span>
+            <input type="radio" name="Genero" value="Male">
+       </label>
+        </fieldset>
+        <fieldset>
+            <span>Grade</span>
+            <input type="checkbox" name="Grade" id="Grade">
+        </fieldset>
+      </form>
+                    
+     </div>
+ </main>
+            
 </body>
-</html>
