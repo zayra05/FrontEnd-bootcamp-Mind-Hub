@@ -54,20 +54,11 @@ header .titulo {
 
    /*section */
 
-/*...imagen background con opacidad
-main img { 
-  height: 100vh;
-  opacity: .3;
-  position: absolute;
-  margin-top: -291px;
-  margin-left: 180px;
-  margin-right: 100px;
-}*/
+
 main > div {
   height: 80vh;
   display: flex;
   flex-direction: row;
-  /*border: 1px solid red;*/
   flex-wrap: wrap;
  }
 
@@ -222,10 +213,7 @@ main .text-contacto{
     color: rgb(70, 70, 70);
 }
 
-  
-
 #gameinfo .tabla{
- /* border: 1px solid red;*/
   height: 70vh;
   flex-grow: 2;
   align-content: center;
@@ -238,12 +226,13 @@ main .text-contacto{
   box-sizing: border-box;
   border-spacing: 42px;
   margin-top: 3px;
-  margin-left: 72px;
+  
 }
 .tabla {
   background-color: rgb(213, 211, 211);
   height: 70vh;
   width: 32rem;
+
 }
 caption{
   font-style:italic;
@@ -271,12 +260,10 @@ tr:nth-child(even){
   color: rgb(0, 0, 0);
 }
 
+
 footer {
   display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction:row;
   flex-wrap: wrap;
 }
 .info-adic {
@@ -285,9 +272,9 @@ footer {
   footer {
   background-color: rgba(205, 202, 202, 0.87);
   font-size: 19px;
-  text-align: center;
-  margin-left: 40px;
-  margin-top: 10px;
+
+  margin: 70px;
+  justify-content: space-between;
 
   }
 
