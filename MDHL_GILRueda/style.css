@@ -26,9 +26,12 @@
   flex-direction: column;
 }*/
 header .titulo {
-  margin-top: 15px;
-margin-left: 30px;
-justify-content:space-between;
+  margin-top: -149px;
+  margin-left: 30px;
+  font-size: larger;
+  width: 770px;
+  background-color:#fae844a9;
+  padding: 5px;
   }
 
   header img {
@@ -64,7 +67,7 @@ main > div {
   height: 80vh;
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   flex-wrap: wrap;
  }
 
@@ -107,7 +110,8 @@ main > div {
 
   section h3 {
   font-style: italic;
-  margin: 15px;
+  margin: 10px;
+
   }
 
   section h4 {
@@ -139,35 +143,39 @@ top: 42vh;
   background-position-x: 233px; 
   height: 100vh;
 }
-
+section h2{
+  display: flex;
+  font-size: 1.5em;
+  font-weight: bold;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
 section article {  
- 
- /* align-content:center;
-  justify-content:center;
-  text-align: justify;*/
-
-   background-color: rgba(205, 202, 202, 0.763);
+ background-color: rgba(205, 202, 202, 0.87);
    font-size: 18px;
    text-align: justify;
-   margin-left: 25px
- /*margin-top: 38px;
-  margin-right: 130px;
-  ;
-  
-  font-size: 18px;
-  font-weight: 300; */
+   margin-left: 23px;
+   margin-right: 23px;
+   
+
 }
 section p {
-text-align:end;
+
+  text-align: justify;
+  margin: 10px;
 }
 
 /*contact*/
 
 .contacto {
   background-color: rgb(234, 234, 234);
-  height:90vh;
+  height: 101vh;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-start;
 }
 
 section span { 
@@ -177,86 +185,187 @@ text-decoration-line: underline;
 }
 
 main .text-contacto{
-  width: 100vh;
-  background-color: rgba(205, 202, 202, 0.763);
-  margin-top: 40px; 
-  margin-right: 338px; 
-   margin-left: ;
-  text-align: center;
-  font-size: 18px; 
-  font-weight: 300;
-  height:20vh;
-  
-  }
-  main .img-contact{
+
+    background-color: rgba(205, 202, 202, 0.763);
+   margin-left: 215px;
+    font-size: 18px;
+    font-weight: 300;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 750px;
+    align-content: center;
     justify-content: center;
-    max-height: 55vh;
-    margin-top: 200px;
-    margin-left: 300px;
+    align-items: center;
+}
+  
+   .img-contact{
+    height: 79vh;
+    margin-top: 20px;
+    margin-left: 215px;
   }
+
   /*Game info*/
   #game-info{
   position: relative;
   display: flex;
   flex-direction: row;
-border: 1px solid red;
-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 60px;
   }
-  .nota-tabla{
-height: 40vh;
-align-self: flex-end;
-flex-wrap: wrap;
-align-content:stretch;
-  }
+  .nota-tabla h4{
+    height: 6vh;
+    margin-top: 16px;
+    position: relative;
+    left: 432px;
+    color: rgb(70, 70, 70);
+}
+
   
 
 #gameinfo .tabla{
-  border: 2px solid #ff0000;
-  height: 50vh;
-  flex-grow: 1;
+ /* border: 1px solid red;*/
+  height: 70vh;
+  flex-grow: 2;
   align-content: center;
   justify-content: center;
 
 }
-.info-adic{
-  justify-content: center;
-  height: 30vh;
-  }
-
-  /*rules
-
-  section .sportsmanship{
-    width: 130vh;
-  position: absolute;
-  left: 210px;
-  max-height: 100vh;
-  top: 42vh;
-  }*/
-
-main #rules{
-  background-color: hsl(122, 100%, 50%);
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-
+.tabla {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 42px;
+  margin-top: 3px;
+  margin-left: 72px;
+}
+.tabla {
+  background-color: rgb(213, 211, 211);
+  height: 70vh;
+  width: 32rem;
+}
+caption{
+  font-style:italic;
+  font-size: larger;
+  font-weight: bold;
 }
 
- section .list-field{
-  width: 130vh;
-  position: absolute;
-  margin-top: 180px;
-  left: 210px;
-  max-height: 100vh;
-  top: 42vh;
- }
- fieldset{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+.tabla td {
+  font-size: large;
+  border: 1px solid;
+  text-align: left;
+  border-color: rgba(222, 0, 0, 0.721);
+}
 
- }
+th {
+  font-weight: 400;
+  background-color: rgba(194, 0, 0, 0.676);
+  color: rgb(255, 237, 34);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+tr:nth-child(even){
+  background-color: rgb(167, 167, 167);
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.info-adic {
+  height: 10vh;
+  }
+  footer {
+  background-color: rgba(205, 202, 202, 0.87);
+  font-size: 19px;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 10px;
+
+  }
+
+  /* rules */
+
+main #rules{
+  width: 850px;
+  margin-top: 40px;
+  margin-left: 191px;
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#rules img{
+  position: absolute;
+  opacity: 70%;
+  max-height: 107vh;
+  right: -50px;
+  z-index: -1;
+}
+#rules section h3 {
+  position: absolute;
+    margin-left: 350px;
+    margin-top: -28px;
+    background: #c4c4c4;
+    border: 1px solid black;
+   
+  
+    
+}
+
+#rules h4{
+color: black;
+background-color: #c4c4c4;
+border: 1px solid black;
+margin: 5px;
+}
+ section li {
+  width: 523px;
+   margin-left: 40px;
+  margin-top: 20px;
+  background-color: #c4c4c4;
+  
+}
+#rules section {
+  display: flex;
+  width: 863px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+ 
+}
+#rules section p {
+  max-height: 355px;
+  width: 404px;
+}
+.listarules{
+  position: absolute;
+    top: 495px;
+    text-align: left;
+    right: 62px;
+    background-color: rgba(205, 202, 202, 0.87);
+    height: 580px;
+}
+/*Registro*/
+
+main #registro{
+
+  height: 123vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:baseline;
+  flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 85px;
+    margin-right: 163px;
+}
+
  fieldset{
   margin-inline-start: 258px;
   margin-inline-end: 49px;
@@ -265,8 +374,11 @@ main #rules{
   padding-inline-end: 0.75em;
   padding-block-end: 4px;
   min-inline-size: revert;
-  border-width: 13px;
+  border-width: 9px;
   border-style: inset;
-  border-color: rgb(253 223 92);
+  border-color: rgba(180, 180, 180, 0.707);
+}
+legend {
+  font-weight: bold;
 }
 

@@ -35,8 +35,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="name">
-            <form action="./showdata.html" method="get"> 
+    <div id="registro">
+        <form action="./showdata.html" method="get"> 
              <fieldset class="name">
                 <legend> Players</legend>
                 <label for="nombre">First Name</label>
@@ -44,40 +44,138 @@
 
                 <label>
                     <span> Last Name</span>
-                    <input type="text" name:"lastname" id="apellido">
+                    <input type="text" name="lastname" id="apellido">
                 
                 </label>
 
              </fieldset>
-<fieldset class="adress">
-    <label for="adress">Street Adress</label>
-    <input type="text" name="adress" id="adress">
-</fieldset>
-<fieldset class="city">
-    <span>City</span>
-    <input type="text" name="city" id="city">
-    <span>Zip Code</span>
-    <input type="text" name="Zip-code" id="Zip">
-</fieldset>
-<fieldset>
-     <label>
-            <span>Birth Date</span>
-            <input type="date" name="date" id="date">
-            <span>Gender:</span>
+            <fieldset class="adress">
+                <label for="adress">Street Adress</label>
+                <input type="text" name="adress" id="adress">
+            </fieldset>
+            <fieldset class="city">
+                <span>City</span>
+                <input type="text" name="city" id="city">
+                <span>Zip Code</span>
+                <input type="text" name="Zip-code" id="Zip">
+            </fieldset>
+            <fieldset>
+                <label>
+                        <span>Birth Date</span>
+                        <input type="date" name="date" id="date">
+                        <span>Gender:</span>
+                        
+                        <span>Female</span>
+                        <input type="radio" name="Genero" value="Female">
+                        <span>Male</span>
+                        <input type="radio" name="Genero" value="Male">
+                </label>
+                    </fieldset>
+                    <fieldset>
+                        <span>Grade:</span>
+                        <span>Pre-School</span>
+                        <input type="radio" name="Grade" id="Preschool">
+                        <span>1st</span>
+                        <input type="radio" name="Grade" id="1st">
+                        <span>2nd</span>
+                        <input type="radio" name="Grade" id="2st">
+                        <span>3rd</span>
+                        <input type="radio" name="Grade" id="3rd">
+                        <span>4th</span>
+                        <input type="radio" name="Grade" id="4th">
+                        <span>5th</span>
+                        <input type="radio" name="Grade" id="5th">
+                       
+                    </fieldset>
             
-            <span>Female</span>
-            <input type="radio" name="Genero" value="Female">
-            <span>Male</span>
-            <input type="radio" name="Genero" value="Male">
-       </label>
-        </fieldset>
-        <fieldset>
-            <span>Grade</span>
-            <input type="checkbox" name="Grade" id="Grade">
-        </fieldset>
-      </form>
+                <fieldset class="losest-school">
+                    <label> Closest School: </label>
+                        <legend>¿which elementary school do you live near?</legend>
+                    <label>
+                        <span>AJ Katzenmaier</span>
+                        <input type="checkbox" name="closestschool" id="Katzenmaier">
+                    </label>
+                    <label>
+                        <span>Greenbay</span>
+                        <input type="checkbox" name="closestschool" id="Greenbay">
+                    </label>
+                       <label>
+                        <span>Howard A Yeager</span>
+                        <input type="checkbox" name="closestschool" id="Howard A Yeager">
+                    </label>
+                    <label>
+                       <span>Marjorie P Hart</span>
+                        <input type="checkbox" name="closestschool" id="Marjorie P Hart">
+                       </label> 
+                    <label>
+                        <span>North Elemantary</span>
+                        <input type="checkbox" name="closestschool" id="North Elemantary">
+                    </label>
+                    <label>
+                    <span>South Elementary</span>
+                    <input type="checkbox" name="closestschool" id="South Elementary">
+                    </label>
+                </fieldset> 
                     
-     </div>
- </main>
+        
+                <fieldset class="Position-play">
+                        <legend>¿what position(s) do you normally play?</legend>
+                        <label>(check all that apply)</label>
+                    <label>
+                        <span>Forward</span>
+                        <input type="checkbox" name="Position-play" id="Forward">
+                        </label>
+                        <label>
+                        <span>Defense</span>
+                        <input type="checkbox" name="Position-play" id="Defense">
+                        </label>
+                        <label>
+                        <span>Midefield</span>
+                        <input type="checkbox" name="Position-play" id="Midefield">
+                    </label> 
+                    <label>
+                       <span>Goalkeeper</span>
+                        <input type="checkbox" name="Position-play" id="Goalkeeper">
+                    </label>   
+                </fieldset> 
             
+                <fieldset class="uniform-size">
+                    <legend>Uniform Size</legend>
+                <label>
+                    <span>Youth Small</span>
+                    <input type="radio" name="uniform-size" id="y-small">
+                </label> 
+                <label>
+                <span>Medium</span>
+                    <input type="radio" name="uniform-size" id="medium">
+                </label>
+                <label>
+                    <span>Youth Medium</span>
+                    <input type="radio" name="uniform-size" id="y-medium">
+                   </label> 
+                   <label>
+                   <span>Large</span>
+                    <input type="radio" name="uniform-size" id="large">
+                 </label> 
+                 <label>
+                    <span>Youth Large </span>
+                    <input type="radio" name="uniform-size" id="y-large">
+                   </label> 
+                <label>
+                   <span>Extra-Large</span>
+                    <input type="radio" name="uniform-size" id="e-large">
+                 </label>
+                 <label>
+                    <span>Small</span>
+                    <input type="radio" name="uniform-size" id="small">
+           </label>
+           <fieldset>
+            <input type="submit" name="enviar" value="enviar">     
+        </fieldset>
+    </fieldset> 
+        </form>
+                            
+        </div>
+    </main>
+                    
 </body>
