@@ -91,10 +91,11 @@ main > div {
 
 
 .eventos {
-  height: 50vh;
-  align-content:center;
-  justify-content:center;
+  height: 65vh;
+  align-content: center;
+  justify-content: center;
   text-align: justify;
+  background: #e0dfdf;
     
   
   }
@@ -185,7 +186,7 @@ main .text-contacto{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 750px;
+    width: 775px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -213,13 +214,6 @@ main .text-contacto{
     color: rgb(70, 70, 70);
 }
 
-#gameinfo .tabla{
-  height: 70vh;
-  flex-grow: 2;
-  align-content: center;
-  justify-content: center;
-
-}
 .tabla {
   display: table;
   border-collapse: separate;
@@ -230,9 +224,9 @@ main .text-contacto{
 }
 .tabla {
   background-color: rgb(213, 211, 211);
-  height: 70vh;
-  width: 32rem;
-
+    border: 2px solid rgb(213, 0, 0);
+    height: 50vh;
+    width: 36rem;
 }
 caption{
   font-style:italic;
@@ -260,40 +254,55 @@ tr:nth-child(even){
   color: rgb(0, 0, 0);
 }
 
-
-footer {
-  display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-}
 .info-adic {
   height: 10vh;
   }
   footer {
-  background-color: rgba(205, 202, 202, 0.87);
-  font-size: 19px;
-
-  margin: 70px;
-  justify-content: space-between;
-
+    background-color: rgba(205, 202, 202, 0.87);
+    font-size: 19px;
+    margin: 69px;
+    margin-top: -171px;
+    border: 2px solid;
   }
 
-  /* rules */
+  div.maps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1208px;
+    justify-content: space-evenly;
+    gap: 20px;
+   
+  }
+
+  #game-info h3{
+    height: 6vh;
+    position: relative;
+    left: 500px;
+    color: rgb(238, 41, 41);
+    background-color: #c4c4c4;
+    border: 2px solid black;
+    margin: 10px;
+    width: 191px;
+    text-align: center;
+    top: -33px;
+  }
+   /*rules */
 
 main #rules{
-  width: 850px;
+  width: 1042px;
   margin-top: 40px;
   margin-left: 191px;
   height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 #rules img{
   position: absolute;
   opacity: 70%;
-  max-height: 107vh;
-  right: -50px;
+  max-height: 100vh;
+  right: 40px;
   z-index: -1;
 }
 #rules section h3 {
@@ -302,9 +311,7 @@ main #rules{
     margin-top: -28px;
     background: #c4c4c4;
     border: 1px solid black;
-   
-  
-    
+     
 }
 
 #rules h4{
@@ -321,23 +328,21 @@ margin: 5px;
   
 }
 #rules section {
-  display: flex;
-  width: 863px;
   margin-top: 20px;
-  flex-wrap: wrap;
+  
  
 }
 #rules section p {
   max-height: 355px;
   width: 404px;
+  font-size: 16px;
 }
 .listarules{
   position: absolute;
-    top: 495px;
-    text-align: left;
-    right: 62px;
-    background-color: rgba(205, 202, 202, 0.87);
-    height: 580px;
+  top: 495px;
+  right: 55px;
+  background-color: rgba(205, 202, 202, 0.87);
+  height: 440px;
 }
 /*Registro*/
 
@@ -354,18 +359,37 @@ main #registro{
 }
 
  fieldset{
-  margin-inline-start: 258px;
-  margin-inline-end: 49px;
-  padding-block-start: 4px;
-  padding-inline-start: 2.75em;
-  padding-inline-end: 0.75em;
-  padding-block-end: 4px;
-  min-inline-size: revert;
-  border-width: 9px;
-  border-style: inset;
-  border-color: rgba(180, 180, 180, 0.707);
+  margin-inline-start: 253px;
+    margin-inline-end: 8px;
+    padding-block-start: 4px;
+    padding-inline-start: 2.75em;
+    padding-block-end: 4px;
+    min-inline-size: revert;
+    border-width: 6px;
+    border-style: groove;
+    border-color: rgba(180, 180, 180, 0.707);
+}
+ fieldset{
+  font-size: large;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: stretch;
+    max-width: 600px;
+    margin-left: 45vh;
+}
+fieldset span{
+  
 }
 legend {
   font-weight: bold;
+  font-size:large;
+}
+#boton-enviar{
+  border: 2px solid black;
+  font-size: larger;
+  background-color: #cbc8c8;
+
 }
 
