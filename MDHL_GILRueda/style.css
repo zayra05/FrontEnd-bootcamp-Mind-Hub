@@ -39,7 +39,6 @@ header .titulo {
     position: absolute;
     top: 70%;
     right: 10%;
-    /* transform: translateY(-50%); */
     z-index: 1;
   } 
   header .encabezado {
@@ -62,7 +61,7 @@ main > div {
   flex-wrap: wrap;
  }
 
- .menu {
+/* .menu {
   position: absolute;
   max-width: 233px;
   font-size: 23px;
@@ -70,9 +69,22 @@ main > div {
   margin-top: 70px;
   margin-left: 40px;
   height: 30vh;
+}*/
 
- 
- }
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content:flex-start;
+}
+.menu {
+  padding: 41px;
+  margin-left: 10px;
+  margin: 10px;
+  height: 1px;
+  z-index: 2;
+
+}
  nav ul {
    list-style-type:square;
    color: #ffe600;
@@ -96,6 +108,7 @@ main > div {
   justify-content: center;
   text-align: justify;
   background: #e0dfdf;
+  margin-top: -60px;
     
   
   }
@@ -114,17 +127,16 @@ main > div {
   /* About Us }*/
 #about .contenido{
   display: flex;
-  position: relative;
   flex-wrap: wrap;
  flex-direction: row;
- align-content:flex-start;
+ align-content:center;
 }
 #about .contenido{ 
-width: 130vh;
-position: absolute;
-left: 210px;
-max-height: 100vh;
-top: 42vh;
+  width: 100vh;
+  max-height: 53vh;
+  margin-left: 40vh;
+  margin-top: 30px;
+
 }
 
 
@@ -134,6 +146,7 @@ top: 42vh;
   background-position-y: -100px;
   background-position-x: 233px; 
   height: 100vh;
+  
 }
 section h2{
   display: flex;
@@ -167,7 +180,7 @@ section p {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-end;
-  justify-content: flex-start;
+  margin-top: -60px;
 }
 
 section span { 
@@ -204,13 +217,13 @@ main .text-contacto{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 60px;
+
   }
   .nota-tabla h4{
     height: 6vh;
-    margin-top: 16px;
+    margin-top: 42px;
     position: relative;
-    left: 432px;
+    left: 307px;
     color: rgb(70, 70, 70);
 }
 
@@ -219,7 +232,8 @@ main .text-contacto{
   border-collapse: separate;
   box-sizing: border-box;
   border-spacing: 42px;
-  margin-top: 3px;
+  margin-top: 40px;
+  margin-left: -20vh;
   
 }
 .tabla {
@@ -261,7 +275,7 @@ tr:nth-child(even){
     background-color: rgba(205, 202, 202, 0.87);
     font-size: 19px;
     margin: 69px;
-    margin-top: -171px;
+    margin-top: -130px;
     border: 2px solid;
   }
 
@@ -290,19 +304,20 @@ tr:nth-child(even){
    /*rules */
 
 main #rules{
-  width: 1042px;
-  margin-top: 40px;
-  margin-left: 191px;
+  width: 1000px;
+  margin-left: 180px;
   height: 100vh;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  
 }
 #rules img{
   position: absolute;
   opacity: 70%;
   max-height: 100vh;
   right: 40px;
+  margin-right: 40px;
   z-index: -1;
 }
 #rules section h3 {
@@ -321,10 +336,10 @@ border: 1px solid black;
 margin: 5px;
 }
  section li {
-  width: 523px;
    margin-left: 40px;
   margin-top: 20px;
-  background-color: #c4c4c4;
+  width: 277px;
+
   
 }
 #rules section {
@@ -339,8 +354,9 @@ margin: 5px;
 }
 .listarules{
   position: absolute;
-  top: 495px;
-  right: 55px;
+  top: 558px;
+  left: 662px;
+    right: 168px;
   background-color: rgba(205, 202, 202, 0.87);
   height: 440px;
 }
@@ -348,39 +364,43 @@ margin: 5px;
 
 main #registro{
 
-  height: 123vh;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   align-items:baseline;
   flex-direction: column;
     justify-content: flex-start;
-    margin-top: 85px;
     margin-right: 163px;
+    margin-left: 80px;
 }
 
  fieldset{
-  margin-inline-start: 253px;
-    margin-inline-end: 8px;
-    padding-block-start: 4px;
-    padding-inline-start: 2.75em;
-    padding-block-end: 4px;
-    min-inline-size: revert;
-    border-width: 6px;
-    border-style: groove;
-    border-color: rgba(180, 180, 180, 0.707);
+  padding-inline-start: 1.75em;
+  border-width: 6px;
+  border-style: groove;
+  border-color: rgba(180, 180, 180, 0.707);
 }
  fieldset{
   font-size: large;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-around;
-    align-items: stretch;
-    max-width: 600px;
-    margin-left: 45vh;
+    justify-content:center;
+    align-items: center;
+    margin-left: 40vh;
+    margin-right: 25vh;
 }
-fieldset span{
+fieldset.grade {
   
+  justify-content: space-around;}
+fieldset.name{
+  
+  justify-content: space-around;
+}
+fieldset.city{
+  
+  justify-content:space-around;
+
 }
 legend {
   font-weight: bold;
@@ -390,6 +410,4 @@ legend {
   border: 2px solid black;
   font-size: larger;
   background-color: #cbc8c8;
-
-}
 
